@@ -20,6 +20,7 @@ public class DesafioCapgemini {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Digite numero de degrais: ");
+		
 		int n = sc.nextInt();
 
 		for (int i = 0; i < n; i++) {
@@ -54,8 +55,10 @@ public class DesafioCapgemini {
 		if (senha.length() >= 6) {
 			System.out.println(senha.length());
 		} else if ((senha.length() <= 5)) {
+			
 			System.out.println("Senha precisa ter um tamanho mínimo de 6 caracteres.");
 			System.out.println(senha.length());
+			
 			int valor = 6 - senha.length();
 
 			System.out.println("faltam: " + valor);
